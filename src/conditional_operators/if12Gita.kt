@@ -6,7 +6,7 @@ package conditional_operators
 
 fun main() {
     println("Type 3 numbers within space")
-    var (n1, n2, n3) = readln().split(" ").map { it.toInt() }
+    val (n1, n2, n3) = readln().split(" ").map { it.toInt() }
 
     if (n1<n2 || n1<n3){
         println("The smallest number is $n1")

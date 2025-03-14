@@ -1,6 +1,6 @@
 package while_operator
 
-fun main(args: Array<String>) {
+fun main() {
     var a = 1
 
     while (a < 50) {
