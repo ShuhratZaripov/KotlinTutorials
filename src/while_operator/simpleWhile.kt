@@ -1,0 +1,10 @@
+package while_operator
+
+fun main(args: Array<String>) {
+    var a = 1
+
+    while (a < 50) {
+        println(a)
+        a++
+    }
+}
